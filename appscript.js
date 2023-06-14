@@ -126,6 +126,7 @@ function BytesToHex(bytes) {
   return hex.join("");
 }
 
+/** Webhook */
 function doGet(e) {
   var ss = SpreadsheetApp.openById(SPREADSHEET_ID);
   var sheet = ss.getActiveSheet();
